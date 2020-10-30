@@ -1,0 +1,20 @@
+{
+  "name": "rollup-plugin-ast-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/generator": "^7.11.0",
+    "@babel/parser": "^7.11.3",
+    "@babel/traverse": "^7.11.0"
+  },
+  "scripts": {
+    "test": "rollup -c"
+  },
+  "peerDependencies": {
+    "rollup": "^2.26.0"
+  }
+}
